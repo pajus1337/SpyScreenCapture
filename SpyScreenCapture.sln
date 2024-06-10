@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyScreenCapture", "SpyScreenCapture\SpyScreenCapture.csproj", "{E50443AD-370D-454C-A4A3-A63AAF4BD6EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyScreenCapture", "SpyScreenCapture\SpyScreenCapture.csproj", "{E50443AD-370D-454C-A4A3-A63AAF4BD6EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerSide", "ServerSide", "{DC16CDB9-1F7C-4542-994A-46F6FF5063EE}"
+	ProjectSection(SolutionItems) = preProject
+		DataReceiver.py = DataReceiver.py
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
